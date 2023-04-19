@@ -1,5 +1,6 @@
 import React, { ReactElement } from 'react';
 import Home from '../pages/home/Home';
+import Transcription from '../components/Transcript/Transcription';
 
 // Types
 interface BaseRoute {
@@ -30,6 +31,15 @@ const routes: Route[] = [
   {
     path: '*',
     navigate: '/',
+  },
+
+  {
+    path: '/transcription',
+    element: <Transcription />,
+  },
+  {
+    path: '*',
+    navigate: '/transcription',
   },
 ];
 
