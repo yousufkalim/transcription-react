@@ -16,11 +16,12 @@ function Content() {
           </p>
         </li>
         <li>
-          <p id="thr-url">Click on the "Transcribe" button</p>
+          <p id="thr-url">Click on the &quot;Transcribe&quot; button</p>
         </li>
         <li>
           <p id="sec-url">
-            Once you have uploaded the file or provided the URL, click on the "Transcribe" button.
+            Once you have uploaded the file or provided the URL, click on the &quot;Transcribe&quot;
+            button.
           </p>
         </li>
         <li>
