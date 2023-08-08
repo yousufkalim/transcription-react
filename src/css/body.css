@@ -1,0 +1,14 @@
+body {
+  /* width: 1728px;
+height: 1117px; */
+  height: 100%;
+  top: -559px;
+  left: 7102px;
+
+  background: url('../assets/components/BackgroundImage/BGlogo.svg'),
+    linear-gradient(0deg, #f2fbff, #f2fbff),
+    linear-gradient(135deg, rgba(255, 255, 255, 0) 22.92%, rgba(153, 201, 255, 0.54) 100%);
+
+  background-repeat: no-repeat; /* By default, images may repeat; set to "no-repeat" to prevent that */
+  background-position: center;
+}

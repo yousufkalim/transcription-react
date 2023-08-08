@@ -1,0 +1,101 @@
+.URL-field {
+  margin-top: 10px;
+}
+.URL-field p {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 2px;
+  margin-top: 1px;
+}
+
+#URL {
+  width: 400px;
+  padding: 2%;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-container .cancel-icon {
+  position: absolute;
+  top: 40%;
+  right: 5px;
+}
+
+/* (***********************************Media Queries For Responsiveness*******************************) */
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  #URL {
+    width: 100%;
+  }
+  .URL-field p {
+    width: 100%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1000px) {
+  #URL {
+    width: 100%;
+  }
+  .URL-field p {
+    width: 100%;
+  }
+}
+@media (min-width: 800px) and (max-width: 900px) {
+  #URL {
+    width: 100%;
+  }
+  .URL-field p {
+    width: 100%;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+  #URL {
+    width: 100%;
+  }
+  .URL-field p {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+  #URL {
+    width: 100%;
+  }
+  .URL-field p {
+    width: 100%;
+  }
+}
+@media (min-width: 500px) and (max-width: 600px) {
+  #URL {
+    width: 100%;
+  }
+  .URL-field p {
+    width: 100%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+  #URL {
+    width: 100%;
+  }
+  .URL-field p {
+    width: 100%;
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  #URL {
+    width: 100%;
+  }
+  .URL-field p {
+    width: 100%;
+    font-size: 11px;
+  }
+}

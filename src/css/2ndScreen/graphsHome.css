@@ -1,0 +1,231 @@
+.graph {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 10px;
+  flex-wrap: wrap;
+}
+.graph-gap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.compo-gap {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.titles {
+  width: 55px;
+}
+.titles p {
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+.cgraph {
+  border: 1px solid rgba(242, 251, 255, 1);
+  background: rgba(242, 251, 255, 1);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cgraph p {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+  color: rgba(0, 59, 126, 1);
+  word-spacing: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .cgraph {
+    width: 70px;
+    height: 70px;
+  }
+  .graph {
+    gap: 50px;
+    margin-left: 25px;
+  }
+
+  .compo-gap {
+    gap: 45px;
+  }
+  .graph-gap {
+    gap: 30px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .cgraph {
+    width: 65px;
+    height: 65px;
+  }
+  .graph {
+    gap: 30px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1199px) {
+  .graph {
+    gap: 25px;
+    margin-right: 50px;
+  }
+}
+@media (min-width: 960px) and (max-width: 1099px) {
+  .cgraph p {
+    font-size: 13px;
+    word-spacing: 6px;
+  }
+}
+@media (min-width: 900px) and (max-width: 959px) {
+  .graph {
+    gap: 15px;
+  }
+  .cgraph {
+    width: 55px;
+    height: 55px;
+  }
+
+  .cgraph p {
+    font-size: 13px;
+    word-spacing: 6px;
+  }
+}
+@media (min-width: 790px) and (max-width: 899px) {
+  .graph {
+    gap: 15px;
+  }
+  .cgraph {
+    width: 55px;
+    height: 55px;
+  }
+  .graph-gap {
+    gap: 15px;
+  }
+
+  .cgraph p {
+    font-size: 12px;
+    word-spacing: 6px;
+  }
+  .compo-gap {
+    gap: 20px;
+  }
+}
+@media (min-width: 760px) and (max-width: 789px) {
+  .cgraph p {
+    font-size: 12px;
+  }
+  .compo-gap {
+    gap: 20px;
+  }
+}
+@media (min-width: 700px) and (max-width: 759px) {
+  .compo-gap {
+    gap: 25px;
+  }
+
+  .cgraph p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 650px) and (max-width: 699px) {
+  .graph {
+    gap: 15px;
+    margin-right: 15px;
+  }
+  .compo-gap {
+    gap: 40px;
+  }
+  .graph-gap {
+    gap: 40px;
+  }
+
+  .cgraph p {
+    font-size: 12px;
+    word-spacing: 10px;
+  }
+}
+
+@media (min-width: 580px) and (max-width: 649px) {
+  .graph {
+    gap: 10px;
+    margin-right: 15px;
+  }
+  .cgraph {
+    margin-left: 20px;
+  }
+  .graph-gap {
+    gap: 20px;
+  }
+  .compo-gap {
+    gap: 39px;
+  }
+
+  .cgraph p {
+    font-size: 12px;
+    word-spacing: 14px;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 579px) {
+  .graph {
+    gap: 10px;
+  }
+  .cgraph {
+    width: 55px;
+    height: 55px;
+  }
+  .compo-gap {
+    gap: 25px;
+  }
+  .graph-gap {
+    gap: 32px;
+  }
+
+  .cgraph p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 450px) and (max-width: 559px) {
+  .graph {
+    gap: 10px;
+  }
+  .cgraph {
+    width: 50px;
+    height: 50px;
+  }
+  .compo-gap {
+    gap: 25px;
+  }
+  .graph-gap {
+    gap: 32px;
+  }
+
+  .cgraph p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 449px) {
+  .graph {
+    gap: 10px;
+  }
+  .cgraph {
+    width: 60px;
+    height: 60px;
+  }
+  .graph-gap {
+    gap: 40px;
+  }
+  .compo-gap {
+    gap: 42px;
+  }
+
+  .cgraph p {
+    font-size: 12px;
+  }
+}

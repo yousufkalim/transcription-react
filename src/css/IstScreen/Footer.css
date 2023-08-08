@@ -1,0 +1,30 @@
+footer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  align-items: center;
+  width: 100%;
+  padding-top: 10px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  margin-top: 60px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+footer #p1 {
+  color: rgba(0, 59, 126, 1);
+}
+
+/* (***********************************Media Queries For Responsiveness*******************************) */
+
+@media (min-width: 330px) and (max-width: 400px) {
+  footer p {
+    padding-top: 0px;
+    font-size: 9px;
+    font-weight: 0px;
+  }
+}

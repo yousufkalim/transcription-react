@@ -1,0 +1,139 @@
+.body {
+  width: 70%;
+  margin: 0px auto;
+  background-color: white;
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
+  height: 40%;
+}
+.title {
+  color: rgba(0, 59, 126, 1);
+  display: flex;
+  width: auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.label {
+  border-bottom: 1px solid rgb(202, 199, 199);
+  margin-top: 3px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+.coheader {
+  height: 40px;
+  padding: 10px 30px 10px 0px;
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.08);
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+.btns .download-btn button {
+  margin-top: 0;
+  width: 130%;
+  padding: 5px;
+  background-color: white;
+  font-size: 12px;
+  font-weight: 200;
+  border-color: rgba(0, 59, 126, 1);
+  color: rgba(0, 59, 126, 1);
+  font-family: 'Poppins', sans-serif;
+}
+select {
+  padding: 6px;
+  border-radius: 15px;
+  align-content: center;
+  border-color: rgba(242, 251, 255, 1);
+  background: rgba(242, 251, 255, 1);
+  width: 110%;
+  line-height: 27px;
+  font-family: 'Poppins', sans-serif;
+}
+.btns {
+  gap: 1.5em;
+  display: flex;
+}
+.burgericon {
+  display: none;
+  position: relative;
+}
+.menue {
+  position: absolute;
+  width: 200px;
+  right: 0;
+  top: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  z-index: 9999;
+  transition: opacity 0.3s, visibility 4s linear 0.3s;
+}
+
+.burgericon:hover .menu {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s, visibility 0s;
+}
+
+.menue .download-btn button {
+  margin-top: 0;
+  width: 110%;
+  padding: 5px;
+  background-color: white;
+  font-size: 12px;
+  font-weight: 200;
+  border-color: rgba(0, 59, 126, 1);
+  color: rgba(0, 59, 126, 1);
+  font-family: 'Poppins', sans-serif;
+}
+@media screen and (max-width: 850px) {
+  .burgericon {
+    float: right;
+    display: block;
+  }
+  .btns {
+    display: none;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+  .title {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 370px) and (max-width: 400px) {
+  .title {
+    font-size: 12px;
+    align-items: left;
+  }
+  .back-button {
+    width: auto;
+  }
+  .menue {
+    width: 150px;
+  }
+}
+/* @media (min-width: 370px) and (max-width: 440px) {
+  .title {
+    font-size: 12px;
+    align-items: left;
+  }
+  .back-button {
+    width: auto;
+  }
+  .menue {
+    width: 100px;
+  }
+  select {
+    width: 100%;
+  }
+} */

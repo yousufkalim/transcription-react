@@ -1,0 +1,83 @@
+/* Header Component Style */
+
+.header {
+  width: 1, 728px;
+  height: 70px;
+  padding: 10px 30px 10px 30px;
+  justify-content: space-between;
+  display: flex;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.08);
+  align-items: center;
+}
+#title p {
+  color: rgba(0, 59, 126, 1);
+  font-family: Raleway;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 46.96px;
+}
+#Logo img {
+  width: 150px;
+}
+
+/* (***********************************Media Queries For Responsiveness*******************************) */
+
+@media only screen and (max-width: 1024px) {
+  #Logo img {
+    width: 120px;
+  }
+  .header {
+    padding: 10px 20px 5px 20px;
+  }
+}
+@media (min-width: 900px) and (max-width: 980px) {
+  #Logo img {
+    width: 130px;
+    margin-top: 5px;
+  }
+  #title p {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+  #Logo img {
+    width: 100px;
+  }
+  #title p {
+    font-size: 20px;
+  }
+}
+@media (min-width: 700px) and (max-width: 800px) {
+  #Logo img {
+    width: 90px;
+  }
+  #title p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  #Logo img {
+    width: 90px;
+  }
+  #title p {
+    font-size: 20px;
+  }
+  .header {
+    gap: 40px;
+  }
+}
+
+@media (min-width: 270px) and (max-width: 300px) {
+  #Logo img {
+    width: 60px;
+    margin-bottom: 5px;
+  }
+  #title p {
+    font-size: 14px;
+  }
+  .header {
+    gap: 20px;
+  }
+}

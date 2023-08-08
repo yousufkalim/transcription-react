@@ -1,0 +1,290 @@
+.p {
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+p {
+  color: rgba(145, 155, 155, 1);
+}
+.forma {
+  padding: 48px 32px 48px 32px;
+  border-radius: 12px;
+  border: 4px dashed rgba(145, 155, 155, 1);
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
+}
+
+.file-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.file-details {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+.file-details p {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cancel-icon {
+  cursor: pointer;
+  margin-left: 5px;
+  color: red;
+}
+
+.file-info label {
+  margin-top: 8px;
+  border: 1px solid red;
+  width: 100px;
+  height: 50px;
+  padding: 6px;
+  border-radius: 400px;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.file-select label {
+  margin-top: 8px;
+  background-color: rgba(0, 59, 126, 1);
+  color: white;
+  width: 100px;
+  height: 50px;
+  padding: 6px;
+  border-radius: 400px;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.file-select img {
+  margin-top: 8px;
+  width: 50px;
+  height: 50px;
+}
+.file-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.file-select p {
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500px;
+  color: rgba(145, 155, 155, 1);
+}
+.line {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  color: rgba(192, 192, 192, 1);
+}
+.line-style {
+  display: inline-block;
+  border-bottom: 1px solid rgba(192, 192, 192, 1);
+  width: 200px;
+  margin: 0 10px;
+}
+
+/* (***********************************Media Queries For Responsiveness*******************************) */
+
+@media only screen and (min-width: 1200px) {
+  .forma {
+    width: 400px;
+    height: 150px;
+  }
+  .line {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .forma {
+    width: 100%;
+    height: 150px;
+  }
+  .line {
+    width: 100%;
+  }
+  .file-select p {
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+  .forma {
+    width: 100%;
+    height: 150px;
+  }
+  .line {
+    width: 100%;
+  }
+  .file-select p {
+    font-size: 9px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .file-details img {
+    width: 50px;
+    height: 50px;
+  }
+  .file-select label {
+    padding: 4px;
+    line-height: 27px;
+    width: 70px;
+  }
+  .p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 800px) and (max-width: 900px) {
+  .forma {
+    width: 100%;
+    height: 130px;
+  }
+  .line {
+    width: 100%;
+  }
+  .file-select p {
+    font-size: 8.5px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .file-details img {
+    width: 50px;
+    height: 50px;
+  }
+  .file-select label {
+    padding: 4px;
+    line-height: 27px;
+    width: 70px;
+  }
+  .p {
+    font-size: 12px;
+  }
+  .file-info label {
+    padding: 4px;
+    line-height: 27px;
+    width: 80px;
+  }
+}
+@media (min-width: 700px) and (max-width: 800px) {
+  .forma {
+    width: 100%;
+    height: 150px;
+  }
+  .line {
+    width: 100%;
+  }
+  .file-select p {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+@media (min-width: 600px) and (max-width: 700px) {
+  .forma {
+    width: 100%;
+    height: 150px;
+  }
+  .line {
+    width: 100%;
+  }
+  .file-select p {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .file-info label {
+    padding: 4px;
+    line-height: 27px;
+    width: 80px;
+  }
+}
+@media (min-width: 500px) and (max-width: 600px) {
+  .forma {
+    width: 100%;
+    height: 150px;
+  }
+  .line {
+    width: 100%;
+  }
+  .file-select p {
+    font-size: 8px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .file-select label {
+    padding: 4px;
+    line-height: 23px;
+    width: 70px;
+  }
+  .p {
+    font-size: 12px;
+  }
+  .file-info label {
+    padding: 4px;
+    line-height: 27px;
+    width: 80px;
+  }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+  .forma {
+    width: 100%;
+    height: 150px;
+  }
+  .line {
+    width: 100%;
+  }
+  .file-select p {
+    font-size: 8px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .file-select label {
+    padding: 4px;
+    line-height: 23px;
+    width: 70px;
+  }
+  .p {
+    font-size: 12px;
+  }
+  .file-details p {
+    font-size: 10.75px;
+  }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .forma {
+    width: 100%;
+    height: 120px;
+  }
+  .line {
+    width: 100%;
+  }
+  .file-select p {
+    font-size: 6px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .file-select label {
+    padding: 3px;
+    line-height: 20px;
+    width: 70px;
+  }
+  .p {
+    font-size: 12px;
+  }
+  .file-details p {
+    font-size: 7px;
+  }
+}

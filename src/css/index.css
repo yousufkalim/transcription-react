@@ -1,0 +1,30 @@
+/* Importing all CSS files */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+@import url('./IstScreen/Header.css');
+@import url('./body.css');
+@import url('./IstScreen/HomeContainer.css');
+@import url('./IstScreen/FileSelector.css');
+@import url('./IstScreen/URL.css');
+@import url('./IstScreen/content.css');
+@import url('./IstScreen/Footer.css');
+@import url('./IstScreen/Divider.css');
+@import url('./2ndScreen/coheader.css');
+@import url('./2ndScreen/BodyContent.css');
+
+@import url('./2ndScreen/TagList.css');
+@import url('./2ndScreen/ProgressSection.css');
+@import url('./2ndScreen/graphsHome.css');
+/* Defaults */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Primary Variables */
+:root {
+  --primary: 'green';
+}
