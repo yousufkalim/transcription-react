@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import FileSelector from './FileSelector.jsx';
-import FileURL from './FileURL.jsx';
 import { useNavigate } from 'react-router-dom';
-import Content from './Content.jsx';
+import FileSelector from './FileSelector';
+import FileURL from './FileURL';
 
-import Divider from './Divider.jsx';
+import Content from './Content';
 
-const HomeContainer = () => {
+import Divider from './Divider';
+
+function HomeContainer() {
   const [isFileSelected, setIsFileSelected] = useState(false);
   const [isFileURLSet, setIsFileURLSet] = useState(false);
 
@@ -27,27 +28,26 @@ const HomeContainer = () => {
     navigate('./Transcription');
   };
   return (
-    <>
-      <div className="main">
-        <div id="upfile">
-          <div id="text">
-            <p>Transform audio and video into written text</p>
-          </div>
-          <FileSelector onSelect={handleFileSelect} disabled={isFileURLSet} />
-          <FileURL onSetURL={handleFileURLSet} disabled={isFileSelected} />
-          <button
-            className={isButtonActive ? '' : 'inactive'}
-            disabled={!isButtonActive}
-            onClick={buttonClick}
-          >
-            Transcribe
-          </button>
+    <div className="main">
+      <div id="upfile">
+        <div id="text">
+          <p>Transform audio and video into written text</p>
         </div>
-        <Divider />
-        <Content />
+        <FileSelector onSelect={handleFileSelect} disabled={isFileURLSet} />
+        <FileURL onSetURL={handleFileURLSet} disabled={isFileSelected} />
+        <button
+          type="button"
+          className={isButtonActive ? '' : 'inactive'}
+          disabled={!isButtonActive}
+          onClick={buttonClick}
+        >
+          Transcribe
+        </button>
       </div>
-    </>
+      <Divider />
+      <Content />
+    </div>
   );
-};
+}
 
 export default HomeContainer;

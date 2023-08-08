@@ -1,7 +1,7 @@
 import React from 'react';
 import { CircularProgress, Typography } from '@mui/material';
 
-const ProgressSection = () => {
+function ProgressSection() {
   return (
     <div className="graphs">
       <CircularProgress
@@ -18,6 +18,6 @@ const ProgressSection = () => {
       <Typography variant="caption">0.97</Typography>
     </div>
   );
-};
+}
 
 export default ProgressSection;
